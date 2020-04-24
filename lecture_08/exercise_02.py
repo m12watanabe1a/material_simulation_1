@@ -36,7 +36,16 @@ if __name__ == "__main__":
     plt.scatter(x, y, color = 'b')
 
     # Draw Fit Line
+<<<<<<< HEAD
     y1 = a1 * x + a0
     plt.plot(x, y1, color = 'r')
+=======
+    x1 = 0.0
+    y1 = a1 * x1 + a0
+
+    x2 = 100.0
+    y2 = a1 * x2 + a0
+    plt.plot([x1, x2], [y1, y2], color = 'r')
+>>>>>>> c6b0abf6c65f8ba63d6c8fae76a831179965647f
 
     plt.show()
